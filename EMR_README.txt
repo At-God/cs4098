@@ -17,7 +17,12 @@ source "$HOME"/.gnuhealthrc
 
 call 'tryton' to boot client
 I had an issue here where I couldn't locate tryton-client.png
-To fix, I downloaded a tarball of tryton and extracted the .png from that and placed it in the correct folder.
+To fix, move the tryton folder in our repo to /usr/share/pixmaps/
 
 login to demo with admin/admin
-login to online with admin/gnusolidario
+
+login online with -
+Server: health.gnusolidario.org:8000
+Database: health28rc3
+User name: admin
+Password: gnusolidario
